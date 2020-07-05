@@ -1,0 +1,4 @@
+Prefix: '&r[&bHMShowCommand&r]'
+showcommand:
+  enable: true
+  prefix: '%player_name% is use Server Command: %message%'

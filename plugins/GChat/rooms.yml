@@ -1,0 +1,13 @@
+#This is still an experimental feature.
+#Report any bugs you saw.
+#Players in chat room can only send messages in the room but can receive messages from outside.
+MyChatRoom:
+  isolate: false
+  #Make players only able to receive messages from the chat room they're in.
+  name: chatroom1
+  template: "[%room_name%] <%user_name%> %message%. dprefix: %dprefix%"
+  dprefix: abc
+  #This is used to make player join chat rooms when they join according to their permissions.
+  perm: experimental.feature
+  #Whether players from this chat room can speak to the outside.
+  switching: true

@@ -1,0 +1,24 @@
+FirstRun: false
+ChatAsync: true
+Chat:
+  moderateur: '<[&9M&f] %name%> %msg%'
+  default: '<[&2R&f] %name%> %msg%'
+  donateur: '[$] > %msg%'
+  english: '[%name%] > %msg%'
+  admin: '<[&4A&f] %name%> %msg%'
+  redstoneur: '<[&2R&f] %name%> %msg%'
+  redstoneurplus: '<[&bR+&f] %name%> %msg%'
+  irs: '<[&6IRS&f] %name%> %msg%'
+  user: '[%name%] > %msg%'
+NameTag:
+  update: 20
+  updateAsync: true
+  moderateur: '%name%'
+  default: '%name%'
+  donateur: '%name%'
+  english: '%name%'
+  admin: '%name%'
+  redstoneur: '%name%'
+  redstoneurplus: '%name%'
+  irs: '%name%'
+  user: '%name%'

@@ -1,0 +1,15 @@
+#The name of this group.
+#The "default" here is just a name, no other meanings.
+default:
+  #This permission should be unique to this group of players.
+  perm: example.unique
+  #Index of prefix starts from 1.
+  #e.g. prefixs[1]=AB, prefixs[2]=BC
+  prefixs:
+    - AB
+    - CD
+  suffix: bye
+  #The prefix is used one by one.
+  template: "<%prefix%>%name% sended %message%% in by %suffix%, this is prefix2 <%prefix%>;\n he is using the dynamic prefix: %dprefix%"
+  #Name of the dynamic prefix(returned by getName()).
+  dprefix: abc
